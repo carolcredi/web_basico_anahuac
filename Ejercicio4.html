@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Galerias</title>
+    <link rel="stylesheet" href="css/lightbox.css">
+    <style>body {
+            margin: 0px;
+            font-family: 'Cedarville Cursive', cursive;}
+          div#background {
+            height: 700px;
+            width: 100%;
+            background-image: url(http://garchitecture.ca/php/images/headers/wood.jpg);
+            padding-top: 20px;}
+          div#gallery {
+            width: 800px;
+            margin: auto;}
+           #background img {
+            height: 150px;
+            margin: 0px;}
+           #background figure {
+            float: left;
+            position: relative;
+            background-color: white;
+            text-align: center;
+            font-size: 15px;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 1px 2px 3px black;}
+          figure.pic1 {
+            -webkit-transform : rotate(-10deg);
+            z-index: 1;}
+          figure.pic2 {
+            -webkit-transform : rotate(15deg);
+            z-index: 2;}
+          figure.pic3 {
+            -webkit-transform : rotate(-25deg);
+            z-index: 1;}
+          figure.pic4 {
+            -webkit-transform : rotate(5deg);
+            z-index:1;}
+          
+          figure.pic5 {
+            -webkit-transform : rotate(5deg);
+            z-index:1;
+          }
+          
+          figure.pic6 {
+            -webkit-transform : rotate(-8deg);
+            z-index:1;
+          }
+          
+          figure.pic7 {
+            -webkit-transform : rotate(2deg);
+            z-index:1;
+          }
+          
+          figure.pic8 {
+            -webkit-transform : rotate(-13deg);
+            z-index:1;
+          }
+          
+          figure.pic9 {
+            -webkit-transform : rotate(-7deg);
+            z-index:1;
+          }
+          
+          figure.pic10 {
+            -webkit-transform : rotate(2deg);
+            z-index:1;
+          }
+          
+          figure.pic11 {
+           -webkit-transform : rotate(-3deg);
+            z-index:1;
+          }
+          
+          #background figure:hover {
+            box-shadow: 5px 10px 100px black;
+            -webkit-transform: scale(1.1,1.1);
+            z-index: 20;
+          }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <section class="galeria1">
+        <figure>
+            <a href="images/826G.jpg"data-lightbox="portafolio1"data-title="Boda Carol y Yoshua">
+                <img src="images/826.jpg" alt="Boda Carol y Yoshua">
+            </a>
+        </figure>
+        <figure>
+                <a href="images/902g.jpg"data-lightbox="portafolio1"data-title="Boda Carol">
+                    <img src="images/902.jpg" alt="Boda Carol">
+                </a>
+            </figure>
+            <figure>
+                    <a href="images/762g.jpg"data-lightbox="portafolio1"data-title="Boda CY">
+                        <img src="images/762.jpg" alt="Boda CY">
+                    </a>
+                </figure>
+            </section>
+       <section class="galeria2">
+            <link href='https://fonts.googleapis.com/css?family=Cedarville+Cursive' rel='stylesheet' type='text/css'>
+            <div id="background">
+              <div id="gallery">
+                <figure class="pic1">
+                  <img src="https://31.media.tumblr.com/tumblr_mel7ujiRxo1qha057o1_1280.jpg" />
+                  <figcaption>Summer 2014</figcaption>
+                </figure>
+                <figure class="pic2">
+                  <img src="http://favim.com/orig/201107/03/art-desert-lo-fi-nature-neil-krug-photography-Favim.com-92907.jpg" />
+                  <figcaption>Death valley</figcaption>
+                </figure>
+                <figure class="pic3">
+                  <img src="media/LagunaTaravilla.bpg" width="200"/>
+                  <figcaption>Early morning</figcaption>
+                </figure>
+                <figure class="pic5">
+                  <img src="images/Perro_png.png" />
+                  <figcaption>#Brooklyn</figcaption>
+                </figure>
+                <figure class="pic6">
+                  <img src="images/perro.svg" />
+                  <figcaption>Why now?</figcaption>
+                </figure>
+                <figure class="pic7">
+                  <img src="images/perro2.jpg" />
+                  <figcaption>Perrito mañosito</figcaption>
+                </figure>
+                <figure class="pic8">
+                  <img src="images/GRAN.jpg" />
+                  <figcaption>My temporary home</figcaption>
+                </figure>
+                <figure class="pic9">
+                  <img src="images/762g.jpg" />
+                  <figcaption>Love</figcaption>
+                </figure>
+                <figure class="pic10">
+                  <img src="images/902g.jpg" />
+                  <figcaption>Torino 2013</figcaption>
+                </figure>
+                <figure class="pic11">
+                  <img src="images/giphy.gif" />
+                  <figcaption>Miss you..</figcaption>
+                </figure>
+              </div>
+            </div>
+       </section>
+    </div>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/lightbox.js"></script>
+    <script src="js/bpgdec-0.9.4.js"></script>
+</body>
+</html>
