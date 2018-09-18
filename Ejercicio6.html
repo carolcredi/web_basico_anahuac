@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Css shapes</title>
+    <style>
+        #container{
+            display: grid;
+            grid-template-columns:repeat(auto-fit, minmax(450px,1fr)); 
+            grid-gap: 1rem;
+        }
+        #image1{
+            float: left;
+            shape-outside: circle(50%)
+        }
+        #image2{
+            float: left;
+            shape-outside: url(images/stic.png)
+        }
+        #image3{
+            float: right;
+            shape-outside: polygon(11% 80%, 90.4% -0.044%);
+        }
+    
+    </style>
+</head>
+<body>
+    <div id="container">
+        <nav>
+            <ul>
+                <li><a href="index.html">inicio</a></li>
+            </ul>
+        </nav>
+        <section>
+            <h1>shapes1</h1>
+            <img src="images/762.jpg" alt="Lago" width="400" id="image1">
+
+            <p>LLorem ipsum dolor sit amet consectetur adipisicing elit. Quis at quae quia earum pariatur quaerat possimus eaque amet dicta sed consectetur obcaecati id, corporis libero ab incidunt ipsa architecto nobis.</p>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis at quae quia earum pariatur quaerat possimus eaque amet dicta sed consectetur obcaecati id, corporis libero ab incidunt ipsa architecto nobis </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis at quae quia earum pariatur quaerat possimus eaque amet dicta sed consectetur obcaecati id, corporis libero ab incidunt ipsa architecto nobis.</p>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis at quae quia earum pariatur quaerat possimus eaque amet dicta sed consectetur obcaecati id, corporis libero ab incidunt ipsa architecto nobis</p>
+        </section>
+
+        <section>
+                <h1>shapes2</h1>
+                <img src="images/826.jpg" alt="Lobo" width="400" id="image2">
+    
+                <p>LLorem ipsum dolor sit amet consectetur adipisicing elit. Quis at quae quia earum pariatur quaerat possimus eaque amet dicta sed consectetur obcaecati id, corporis libero ab incidunt ipsa architecto nobis.</p>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis at quae quia earum pariatur quaerat possimus eaque amet dicta sed consectetur obcaecati id, corporis libero ab incidunt ipsa architecto nobis </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis at quae quia earum pariatur quaerat possimus eaque amet dicta sed consectetur obcaecati id, corporis libero ab incidunt ipsa architecto nobis.</p>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis at quae quia earum pariatur quaerat possimus eaque amet dicta sed consectetur obcaecati id, corporis libero ab incidunt ipsa architecto nobis</p>
+            </section>
+
+            <section>
+                    <h1>shapes3</h1>
+                    <img src="images/902.jpg" alt="Lago" width="400" id="image3">
+        
+                    <p>LLorem ipsum dolor sit amet consectetur adipisicing elit. Quis at quae quia earum pariatur quaerat possimus eaque amet dicta sed consectetur obcaecati id, corporis libero ab incidunt ipsa architecto nobis.</p>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis at quae quia earum pariatur quaerat possimus eaque amet dicta sed consectetur obcaecati id, corporis libero ab incidunt ipsa architecto nobis </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis at quae quia earum pariatur quaerat possimus eaque amet dicta sed consectetur obcaecati id, corporis libero ab incidunt ipsa architecto nobis.</p>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis at quae quia earum pariatur quaerat possimus eaque amet dicta sed consectetur obcaecati id, corporis libero ab incidunt ipsa architecto nobis</p>
+                </section>
+    </div>
+    
+</body>
+</html>
